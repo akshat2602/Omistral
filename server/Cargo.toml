@@ -1,0 +1,10 @@
+[package]
+name = "server"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+edition = "2024"
+
+[dependencies]
+
+
