@@ -1,8 +1,9 @@
 [package]
-name = "cli"
+name = "omistral"
 version.workspace = true
 authors.workspace = true
 description.workspace = true
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.32", features = ["derive"] }
