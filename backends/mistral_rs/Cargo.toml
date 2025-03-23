@@ -1,9 +1,0 @@
-[package]
-name = "mistral_rs"
-edition = "2024"
-version.workspace = true
-authors.workspace = true
-description.workspace = true
-
-[dependencies]
-mistralrs = { git = "https://github.com/EricLBuehler/mistral.rs.git" }

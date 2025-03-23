@@ -1,5 +1,5 @@
 [workspace]
-members = ["server", "cli", "core", "backends/mistral_rs"]
+members = ["server", "cli", "omistral_core"]
 resolver = "2"
 
 [workspace.dependencies]

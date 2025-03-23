@@ -1,0 +1,14 @@
+[package]
+name = "omistral_core"
+edition = "2024"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+
+[dependencies]
+tokio = { workspace = true }
+anyhow = { workspace = true }
+serde = { version = "1.0", features = ["derive"], workspace = true }
+serde_json = { version = "1.0", workspace = true }
+tracing = { version = "0.1", workspace = true }
+tokio-stream = { version = "0.1" }
